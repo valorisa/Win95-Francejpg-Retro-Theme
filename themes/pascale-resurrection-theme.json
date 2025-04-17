@@ -1,0 +1,191 @@
+{
+  "name": "pascale-resurrection",
+  "displayName": "Pascale Resurrection",
+  "description": "Thème VSCode inspiré par l'image 'Il a Vaincu la Mort', contrastant l'obscurité et la lumière dorée.",
+  "version": "1.0.0",
+  "publisher": "ton-nom-ou-pseudo",
+  "type": "dark",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "colors": {
+    "editor.background": "#10151B",
+    "editor.foreground": "#D4CBB5",
+    "editorLineNumber.foreground": "#546E7A",
+    "editorCursor.foreground": "#E8B943",
+    "activityBar.background": "#10151B",
+    "activityBar.foreground": "#E8B943",
+    "activityBar.inactiveForeground": "#546E7A",
+    "activityBarBadge.background": "#E8B943",
+    "activityBarBadge.foreground": "#10151B",
+    "sideBar.background": "#1A2128",
+    "sideBar.foreground": "#B0BEC5",
+    "sideBarSectionHeader.background": "#10151B",
+    "sideBarSectionHeader.foreground": "#E8B943",
+    "statusBar.background": "#10151B",
+    "statusBar.foreground": "#B0BEC5",
+    "statusBar.noFolderBackground": "#0A0D10",
+    "tab.activeBackground": "#1A2128",
+    "tab.activeForeground": "#E8B943",
+    "tab.inactiveBackground": "#10151B",
+    "tab.inactiveForeground": "#546E7A",
+    "tab.border": "#0A0D10",
+    "titleBar.activeBackground": "#10151B",
+    "titleBar.activeForeground": "#E8B943",
+    "titleBar.inactiveBackground": "#1A2128",
+    "titleBar.inactiveForeground": "#546E7A",
+    "button.background": "#E8B943",
+    "button.foreground": "#10151B",
+    "input.background": "#263238",
+    "input.foreground": "#D4CBB5",
+    "input.border": "#546E7A",
+    "dropdown.background": "#1A2128",
+    "dropdown.border": "#546E7A",
+    "list.hoverBackground": "#263238",
+    "list.activeSelectionBackground": "#E8B943",
+    "list.activeSelectionForeground": "#10151B",
+    "peekViewEditor.background": "#1A2128",
+    "peekViewResult.background": "#10151B",
+    "peekViewTitle.background": "#10151B"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#546E7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical"
+      ],
+      "settings": {
+        "foreground": "#E8B943",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.triple",
+        "string.quoted.template"
+      ],
+      "settings": {
+        "foreground": "#FFA726"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#D4CBB5"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#FFA726"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "entity.name.method"
+      ],
+      "settings": {
+        "foreground": "#80CBC4"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class",
+        "entity.other.inherited-class",
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": "#80CBC4",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#E8B943"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#FFA726"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading",
+        "entity.name.section"
+      ],
+      "settings": {
+        "foreground": "#E8B943",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF5252",
+        "background": "#401515"
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "name": "bbrod-french-theme-pack",
   "displayName": "Bbrod's French Theme Pack",
-  "description": "Une collection de thèmes VSCode uniques inspirés d'images françaises : Win95 Retro, Armor-lux et Chaudard.",
-  "version": "1.0.0",
+  "description": "Une collection de thèmes VSCode uniques inspirés d'images françaises : Win95 Retro, Armor-lux, Chaudard et Pascale Resurrection.",
+  "version": "1.1.0",
   "publisher": "bbrod",
   "engines": {
     "vscode": "^1.50.0"
@@ -15,18 +15,23 @@
     "themes": [
       {
         "label": "Win95 FranceJPG Retro",
-        "uiTheme": "vs-dark", 
+        "uiTheme": "vs-dark",
         "path": "./themes/win95-francejpg-retro-color-theme.json"
       },
       {
         "label": "Armor-lux Marinière",
-        "uiTheme": "vs",  
+        "uiTheme": "vs",
         "path": "./themes/armorlux-mariniere-theme.json"
       },
       {
         "label": "Chaudard - Ail Edition",
-        "uiTheme": "vs", 
+        "uiTheme": "vs",
         "path": "./themes/chaudard-ail-theme.json"
+      },
+      {
+        "label": "Pascale Resurrection",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pascale-resurrection-theme.json"
       }
     ]
   }
