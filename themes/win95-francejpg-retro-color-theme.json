@@ -1,0 +1,66 @@
+{
+  "name": "FranceJPG Retro",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0000a0",
+    "editor.foreground": "#00ff00",
+    "editorLineNumber.foreground": "#00ff00",
+    "activityBar.background": "#000080",
+    "sideBar.background": "#238b8b",
+    "statusBar.background": "#000080",
+    "tab.activeBackground": "#f0f0e0",
+    "tab.inactiveBackground": "#c0c0c0",
+    "titleBar.activeBackground": "#000080",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#c0c0c0",
+    "titleBar.inactiveForeground": "#222222",
+    "menu.background": "#c0c0c0",
+    "menu.foreground": "#000000"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#555555",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {
+        "foreground": "#00ff00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#00ff00"
+      }
+    },
+    {
+      "scope": ["variable", "parameter"],
+      "settings": {
+        "foreground": "#f0f0e0"
+      }
+    },
+    {
+      "scope": ["function", "method"],
+      "settings": {
+        "foreground": "#00ff00"
+      }
+    },
+    {
+      "scope": ["number", "constant"],
+      "settings": {
+        "foreground": "#222222"
+      }
+    },
+    {
+      "scope": ["type", "class"],
+      "settings": {
+        "foreground": "#238b8b"
+      }
+    }
+  ]
+}

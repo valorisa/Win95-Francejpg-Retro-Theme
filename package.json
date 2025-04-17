@@ -1,0 +1,22 @@
+{
+  "name": "win95-francejpg-retro-theme",
+  "displayName": "Win95 FranceJPG Retro Theme",
+  "description": "Un thème VSCode rétro inspiré de Windows 95 et de la carte France.jpg.",
+  "version": "1.0.0",
+  "publisher": "bbrod",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Win95 FranceJPG Retro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/win95-francejpg-retro-color-theme.json"
+      }
+    ]
+  }
+}
