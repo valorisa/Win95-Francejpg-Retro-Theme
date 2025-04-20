@@ -1,35 +1,32 @@
 {
-  "name": "bbrod-french-theme-pack", // Nouveau nom plus général pour la collection
-  "displayName": "Bbrod's French Theme Pack", // Nom affiché
+  "name": "bbrod-french-theme-pack",
+  "displayName": "Bbrod's French Theme Pack",
   "description": "Une collection de thèmes VSCode uniques inspirés d'images françaises : Win95 Retro, Armor-lux et Chaudard.",
-  "version": "1.0.0", // Version initiale de la collection
-  "publisher": "bbrod", // Ton identifiant (si tu publies)
+  "version": "1.0.0",
+  "publisher": "bbrod",
   "engines": {
-    "vscode": "^1.50.0" // Version minimale de VSCode compatible
+    "vscode": "^1.50.0"
   },
   "categories": [
-    "Themes" // Catégorie obligatoire pour les thèmes
+    "Themes"
   ],
-  "icon": "France.jpg", // Optionnel : tu peux définir une icône pour ton pack
+  "icon": "France.jpg",
   "contributes": {
     "themes": [
-      // --- Thème 1 : Win95 FranceJPG Retro ---
       {
-        "label": "Win95 FranceJPG Retro", // Nom du thème dans VSCode
-        "uiTheme": "vs-dark",             // Type de thème (sombre)
-        "path": "./themes/win95-francejpg-retro-color-theme.json" // Chemin vers le fichier thème
+        "label": "Win95 FranceJPG Retro",
+        "uiTheme": "vs-dark", 
+        "path": "./themes/win95-francejpg-retro-color-theme.json"
       },
-      // --- Thème 2 : Armor-lux Marinière ---
       {
-        "label": "Armor-lux Marinière",   // Nom du thème dans VSCode
-        "uiTheme": "vs-light",            // Type de thème (clair)
-        "path": "./themes/armorlux-mariniere-theme.json" // Chemin vers le fichier thème
+        "label": "Armor-lux Marinière",
+        "uiTheme": "vs",  
+        "path": "./themes/armorlux-mariniere-theme.json"
       },
-      // --- Thème 3 : Chaudard - Ail Edition ---
       {
-        "label": "Chaudard - Ail Edition",// Nom du thème dans VSCode
-        "uiTheme": "vs-light",            // Type de thème (clair)
-        "path": "./themes/chaudard-ail-theme.json" // Chemin vers le fichier thème
+        "label": "Chaudard - Ail Edition",
+        "uiTheme": "vs", 
+        "path": "./themes/chaudard-ail-theme.json"
       }
     ]
   }
