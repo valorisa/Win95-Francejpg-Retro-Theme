@@ -1,0 +1,135 @@
+{
+  "name": "chaudard-ail-theme",
+  "displayName": "Chaudard - Ail Edition",
+  "description": "Thème VSCode inspiré du packaging 'On veut de l'ail!' avec l'Adjudant-Chef Chaudard.",
+  "version": "1.0.0",
+  "publisher": "ton-nom-ou-pseudo",
+  "type": "light", // Thème clair basé sur le jaune
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "colors": {
+    // --- Base ---
+    "editor.background": "#FDF5D5", // Jaune très clair, moins saturé que l'original pour le confort
+    "editor.foreground": "#3B2B1A", // Texte principal marron foncé
+    "editorLineNumber.foreground": "#A0804E", // Numéros de ligne en marron moyen
+    "editorCursor.foreground": "#D81E05", // Curseur rouge vif
+
+    // --- Barre d'activité (gauche) ---
+    "activityBar.background": "#FCD647", // Jaune packaging
+    "activityBar.foreground": "#3B2B1A", // Icônes marron foncé
+    "activityBar.inactiveForeground": "#8A785D", // Icônes inactives en marron/gris
+    "activityBarBadge.background": "#D81E05", // Badge rouge
+    "activityBarBadge.foreground": "#FFFFFF", // Texte badge blanc
+
+    // --- Barre latérale (explorateur) ---
+    "sideBar.background": "#FAEBBF", // Jaune légèrement différent pour contraste
+    "sideBar.foreground": "#3B2B1A",
+    "sideBarSectionHeader.background": "#FCD647", // Titres de section sur fond jaune
+    "sideBarSectionHeader.foreground": "#3B2B1A",
+
+    // --- Barre de statut (bas) ---
+    "statusBar.background": "#D81E05", // Rouge bandeau
+    "statusBar.foreground": "#FFFFFF", // Texte blanc
+    "statusBar.noFolderBackground": "#A31604", // Rouge plus foncé si pas de dossier
+    "statusBarItem.remoteBackground": "#FFFFFF",
+    "statusBarItem.remoteForeground": "#D81E05",
+
+    // --- Onglets ---
+    "tab.activeBackground": "#FDF5D5", // Fond éditeur pour onglet actif
+    "tab.activeForeground": "#D81E05", // Texte rouge pour onglet actif
+    "tab.inactiveBackground": "#FCD647", // Jaune pour inactifs
+    "tab.inactiveForeground": "#3B2B1A", // Texte marron
+    "tab.border": "#EAC985", // Bordure légère
+
+    // --- Barre de titre (haut) ---
+    "titleBar.activeBackground": "#D81E05", // Rouge bandeau
+    "titleBar.activeForeground": "#FFFFFF", // Texte blanc
+    "titleBar.inactiveBackground": "#E84835", // Rouge plus clair si inactif
+    "titleBar.inactiveForeground": "#FFE0E0",
+
+    // --- Autres éléments UI ---
+    "button.background": "#D81E05", // Boutons rouges
+    "button.foreground": "#FFFFFF",
+    "input.background": "#FFFFFF",
+    "input.border": "#FCD647", // Bordure jaune
+    "dropdown.background": "#FAEBBF",
+    "dropdown.border": "#D81E05",
+    "list.hoverBackground": "#FCE48B", // Survol jaune plus vif
+    "list.activeSelectionBackground": "#D81E05", // Sélection active rouge
+    "list.activeSelectionForeground": "#FFFFFF"
+  },
+  "tokenColors": [
+    // --- Syntaxe ---
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#8A785D", // Commentaires en marron/gris désaturé
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#D81E05", // Mots-clés en rouge vif
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#008847" // Chaînes en vert Nutri-Score
+      }
+    },
+    {
+      "scope": ["variable", "support.variable", "punctuation.definition.variable"],
+      "settings": {
+        "foreground": "#3B2B1A" // Variables en marron texte principal
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#EF7D00" // Nombres/Constantes en orange Nutri-Score
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#4A4A4A", // Fonctions en gris casque (pour varier)
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "entity.name.class", "support.class", "entity.other.inherited-class"],
+      "settings": {
+        "foreground": "#3B2B1A", // Types/Classes en marron foncé
+        "fontStyle": "underline" // Souligné pour différencier
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#D81E05" // Tags HTML/XML en rouge
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#A0804E" // Attributs en marron moyen
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FF0000",
+        "background": "#FFDDDD"
+      }
+    }
+  ]
+}
+
+
