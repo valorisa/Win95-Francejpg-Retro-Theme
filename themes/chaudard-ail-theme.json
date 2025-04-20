@@ -4,7 +4,7 @@
   "description": "Thème VSCode inspiré du packaging 'On veut de l'ail!' avec l'Adjudant-Chef Chaudard.",
   "version": "1.0.0",
   "publisher": "ton-nom-ou-pseudo",
-  "type": "light", // Thème clair basé sur le jaune
+  "type": "light",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -12,114 +12,153 @@
     "Themes"
   ],
   "colors": {
-    // --- Base ---
-    "editor.background": "#FDF5D5", // Jaune très clair, moins saturé que l'original pour le confort
-    "editor.foreground": "#3B2B1A", // Texte principal marron foncé
-    "editorLineNumber.foreground": "#A0804E", // Numéros de ligne en marron moyen
-    "editorCursor.foreground": "#D81E05", // Curseur rouge vif
+    "editor.background": "#FDF5D5",
+    "editor.foreground": "#3B2B1A",
+    "editorLineNumber.foreground": "#A0804E",
+    "editorCursor.foreground": "#D81E05",
 
-    // --- Barre d'activité (gauche) ---
-    "activityBar.background": "#FCD647", // Jaune packaging
-    "activityBar.foreground": "#3B2B1A", // Icônes marron foncé
-    "activityBar.inactiveForeground": "#8A785D", // Icônes inactives en marron/gris
-    "activityBarBadge.background": "#D81E05", // Badge rouge
-    "activityBarBadge.foreground": "#FFFFFF", // Texte badge blanc
+    "activityBar.background": "#FCD647",
+    "activityBar.foreground": "#3B2B1A",
+    "activityBar.inactiveForeground": "#8A785D",
+    "activityBarBadge.background": "#D81E05",
+    "activityBarBadge.foreground": "#FFFFFF",
 
-    // --- Barre latérale (explorateur) ---
-    "sideBar.background": "#FAEBBF", // Jaune légèrement différent pour contraste
+    "sideBar.background": "#FAEBBF",
     "sideBar.foreground": "#3B2B1A",
-    "sideBarSectionHeader.background": "#FCD647", // Titres de section sur fond jaune
+    "sideBarSectionHeader.background": "#FCD647",
     "sideBarSectionHeader.foreground": "#3B2B1A",
 
-    // --- Barre de statut (bas) ---
-    "statusBar.background": "#D81E05", // Rouge bandeau
-    "statusBar.foreground": "#FFFFFF", // Texte blanc
-    "statusBar.noFolderBackground": "#A31604", // Rouge plus foncé si pas de dossier
+   
+    "statusBar.background": "#D81E05",
+    "statusBar.noFolderBackground": "#A31604",
     "statusBarItem.remoteBackground": "#FFFFFF",
     "statusBarItem.remoteForeground": "#D81E05",
 
-    // --- Onglets ---
-    "tab.activeBackground": "#FDF5D5", // Fond éditeur pour onglet actif
-    "tab.activeForeground": "#D81E05", // Texte rouge pour onglet actif
-    "tab.inactiveBackground": "#FCD647", // Jaune pour inactifs
-    "tab.inactiveForeground": "#3B2B1A", // Texte marron
-    "tab.border": "#EAC985", // Bordure légère
+   
+    "tab.activeBackground": "#FDF5D5",
+    "tab.inactiveForeground": "#3B2B1A",
+    "tab.border": "#EAC985",
 
-    // --- Barre de titre (haut) ---
-    "titleBar.activeBackground": "#D81E05", // Rouge bandeau
-    "titleBar.activeForeground": "#FFFFFF", // Texte blanc
-    "titleBar.inactiveBackground": "#E84835", // Rouge plus clair si inactif
-    "titleBar.inactiveForeground": "#FFE0E0",
-
-    // --- Autres éléments UI ---
-    "button.background": "#D81E05", // Boutons rouges
+    "titleBar.activeBackground": "#D81E05",
+    "titleBar.activeForeground": "#FFFFFF",
+    
+    "button.background": "#D81E05",
     "button.foreground": "#FFFFFF",
     "input.background": "#FFFFFF",
-    "input.border": "#FCD647", // Bordure jaune
-    "dropdown.background": "#FAEBBF",
     "dropdown.border": "#D81E05",
-    "list.hoverBackground": "#FCE48B", // Survol jaune plus vif
-    "list.activeSelectionBackground": "#D81E05", // Sélection active rouge
+    "list.hoverBackground": "#FCE48B",
+    "list.activeSelectionBackground": "#D81E05",
     "list.activeSelectionForeground": "#FFFFFF"
   },
   "tokenColors": [
-    // --- Syntaxe ---
+  
     {
-      "scope": ["comment"],
+      "scope": ["comment", "comment.block.documentation"],
       "settings": {
-        "foreground": "#8A785D", // Commentaires en marron/gris désaturé
+        "foreground": "#8A785D",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": ["keyword", "variable.language"],
       "settings": {
-        "foreground": "#D81E05", // Mots-clés en rouge vif
+        "foreground": "#D81E05",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["constant", "constant.other"],
+      "settings": {
+        "foreground": "#A0804E"
+      }
+    },
+    {
+      "scope": ["meta", "meta.definition"],
+      "settings": {
+        "foreground": "#3B2B1A"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#D81E05",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#8A785D"
+      }
+    },
+    {
+      "scope": ["keyword", "variable.language"],
+      "settings": {
+        "foreground": "#D81E05",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["constant", "constant.other"],
+      "settings": {
+        "foreground": "#A0804E"
+      }
+    },
+    {
+      "scope": ["meta", "meta.definition"],
+      "settings": {
+        "foreground": "#3B2B1A"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#D81E05",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#008847" // Chaînes en vert Nutri-Score
+        "foreground": "#008847"
       }
     },
     {
       "scope": ["variable", "support.variable", "punctuation.definition.variable"],
       "settings": {
-        "foreground": "#3B2B1A" // Variables en marron texte principal
+        "foreground": "#3B2B1A"
       }
     },
     {
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#EF7D00" // Nombres/Constantes en orange Nutri-Score
+        "foreground": "#EF7D00"
       }
     },
     {
       "scope": ["entity.name.function", "support.function", "meta.function-call"],
       "settings": {
-        "foreground": "#4A4A4A", // Fonctions en gris casque (pour varier)
+        "foreground": "#4A4A4A",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["entity.name.type", "entity.name.class", "support.class", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "#3B2B1A", // Types/Classes en marron foncé
-        "fontStyle": "underline" // Souligné pour différencier
+        "foreground": "#3B2B1A",
+        "fontStyle": "underline"
       }
     },
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
       "settings": {
-        "foreground": "#D81E05" // Tags HTML/XML en rouge
+        "foreground": "#D81E05"
       }
     },
     {
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#A0804E" // Attributs en marron moyen
+        "foreground": "#A0804E"
       }
     },
     {

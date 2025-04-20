@@ -1,119 +1,92 @@
 {
   "name": "Armor-lux Marinière",
-  "type": "light", // Thème clair basé sur le fond blanc
+  "type": "light",
   "colors": {
-    // --- Base ---
-    "editor.background": "#FFFFFF", // Fond blanc pur
-    "editor.foreground": "#333333", // Texte principal gris foncé
-    "editorLineNumber.foreground": "#0047AB", // Numéros de ligne en bleu Armor-lux
-    "editorCursor.foreground": "#0047AB", // Curseur en bleu
-
-    // --- Barre d'activité (gauche) ---
-    "activityBar.background": "#0047AB", // Bleu Armor-lux
-    "activityBar.foreground": "#FFFFFF", // Icônes blanches
-    "activityBarBadge.background": "#FFFFFF", // Badge blanc
-    "activityBarBadge.foreground": "#0047AB", // Texte du badge en bleu
-
-    // --- Barre latérale (explorateur) ---
-    "sideBar.background": "#F8F8F8", // Blanc légèrement cassé pour différencier
-    "sideBar.foreground": "#333333", // Texte gris foncé
-    "sideBarSectionHeader.background": "#EAEAEA", // Séparateurs gris clair
-    "sideBarSectionHeader.foreground": "#0047AB", // Titres de section en bleu
-
-    // --- Barre de statut (bas) ---
-    "statusBar.background": "#0047AB", // Bleu Armor-lux
-    "statusBar.foreground": "#FFFFFF", // Texte blanc
-    "statusBar.noFolderBackground": "#003366", // Bleu plus foncé si aucun dossier ouvert
-    "statusBarItem.remoteBackground": "#FFFFFF", // Fond blanc pour Remote
-    "statusBarItem.remoteForeground": "#0047AB", // Texte bleu pour Remote
-
-    // --- Onglets ---
-    "tab.activeBackground": "#FFFFFF", // Onglet actif blanc
-    "tab.activeForeground": "#0047AB", // Texte onglet actif en bleu
-    "tab.inactiveBackground": "#EAEAEA", // Onglets inactifs gris clair
-    "tab.inactiveForeground": "#555555", // Texte onglets inactifs gris moyen
-    "tab.border": "#EAEAEA", // Bordure légère entre les onglets
-
-    // --- Barre de titre (haut) ---
-    "titleBar.activeBackground": "#0047AB", // Bleu Armor-lux
-    "titleBar.activeForeground": "#FFFFFF", // Texte blanc
-    "titleBar.inactiveBackground": "#005EB8", // Bleu légèrement plus clair si inactif
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#333333",
+    "editorLineNumber.foreground": "#0047AB",
+    "editorCursor.foreground": "#0047AB",
+    "activityBar.background": "#0047AB",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBarBadge.background": "#FFFFFF",
+    "activityBarBadge.foreground": "#0047AB",
+    "sideBar.background": "#F8F8F8",
+    "sideBar.foreground": "#333333",
+    "sideBarSectionHeader.background": "#EAEAEA",
+    "sideBarSectionHeader.foreground": "#0047AB",
+    "statusBar.background": "#0047AB",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#003366",
+    "statusBarItem.remoteBackground": "#FFFFFF",
+    "statusBarItem.remoteForeground": "#0047AB",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.activeForeground": "#0047AB",
+    "tab.inactiveBackground": "#EAEAEA",
+    "tab.inactiveForeground": "#555555",
+    "tab.border": "#EAEAEA",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#005EB8",
     "titleBar.inactiveForeground": "#EAEAEA",
-
-    // --- Autres éléments UI ---
-    "button.background": "#0047AB", // Boutons en bleu
-    "button.foreground": "#FFFFFF", // Texte bouton blanc
-    "input.background": "#FFFFFF", // Champs de saisie fond blanc
-    "input.border": "#0047AB", // Bordure bleue
-    "dropdown.background": "#FFFFFF",
-    "dropdown.border": "#0047AB",
-    "list.hoverBackground": "#ADD8E6", // Survol en bleu clair
-    "list.activeSelectionBackground": "#0047AB", // Sélection active en bleu
-    "list.activeSelectionForeground": "#FFFFFF" // Texte sélection active blanc
+    "button.background": "#0047AB",
+    "button.foreground": "#FFFFFF",
+    "input.background": "#FFFFFF",
+    "input.border": "#0047AB"
   },
   "tokenColors": [
-    // --- Syntaxe ---
     {
       "scope": ["comment"],
       "settings": {
-        "foreground": "#888888", // Commentaires en gris clair
+        "foreground": "#888888",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": ["keyword", "storage.type", "storage.modifier"],
-      "settings": {
-        "foreground": "#0047AB", // Mots-clés en bleu Armor-lux
-        "fontStyle": "bold"
       }
     },
     {
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#006400" // Chaînes de caractères en vert foncé (pour varier)
+        "foreground": "#006400"
       }
     },
     {
       "scope": ["variable", "support.variable", "punctuation.definition.variable"],
       "settings": {
-        "foreground": "#333333" // Variables en gris foncé
+        "foreground": "#333333"
       }
     },
     {
       "scope": ["constant.numeric", "constant.language"],
       "settings": {
-        "foreground": "#B85B00" // Nombres et constantes de langage en marron/ocre
+        "foreground": "#B85B00"
       }
     },
     {
       "scope": ["entity.name.function", "support.function", "meta.function-call"],
       "settings": {
-        "foreground": "#0047AB" // Fonctions en bleu Armor-lux
+        "foreground": "#0047AB"
       }
     },
     {
       "scope": ["entity.name.type", "entity.name.class", "support.class", "entity.other.inherited-class"],
       "settings": {
-        "foreground": "#0047AB", // Types et classes en bleu
+        "foreground": "#0047AB",
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag"],
       "settings": {
-        "foreground": "#003366" // Tags HTML/XML en bleu plus foncé
+        "foreground": "#003366"
       }
     },
     {
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#8B4513" // Attributs en marron (inspiré du beige corde)
+        "foreground": "#8B4513"
       }
     },
     {
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF0000", // Erreurs en rouge vif
+        "foreground": "#FF0000",
         "background": "#FFDDDD"
       }
     }
