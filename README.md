@@ -35,7 +35,7 @@ Aperçu du thème
 
 1. **Téléchargez ou clonez ce dépôt :**
    ```bash
-   git clone https://github.com/votre-utilisateur/Win95-francejpg-retro-theme.git
+   git clone https://github.com/valorisa/Win95-francejpg-retro-theme.git
    ```
 
 2. **Copiez le dossier du thème dans vos extensions VSCode :**
