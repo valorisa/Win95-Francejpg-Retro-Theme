@@ -28,12 +28,10 @@
     "sideBarSectionHeader.background": "#FCD647",
     "sideBarSectionHeader.foreground": "#3B2B1A",
 
-   
     "statusBar.background": "#D81E05",
     "statusBar.noFolderBackground": "#A31604",
     "statusBarItem.remoteBackground": "#FFFFFF",
     "statusBarItem.remoteForeground": "#D81E05",
-
    
     "tab.activeBackground": "#FDF5D5",
     "tab.inactiveForeground": "#3B2B1A",
@@ -170,5 +168,3 @@
     }
   ]
 }
-
-
