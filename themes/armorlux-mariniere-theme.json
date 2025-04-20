@@ -24,13 +24,19 @@
     "tab.inactiveBackground": "#EAEAEA",
     "tab.inactiveForeground": "#555555",
     "tab.border": "#EAEAEA",
+    "titleBar.activeBackground": "#0047AB",
     "titleBar.activeForeground": "#FFFFFF",
     "titleBar.inactiveBackground": "#005EB8",
     "titleBar.inactiveForeground": "#EAEAEA",
     "button.background": "#0047AB",
     "button.foreground": "#FFFFFF",
     "input.background": "#FFFFFF",
-    "input.border": "#0047AB"
+    "input.border": "#0047AB",
+    "dropdown.background": "#FFFFFF",
+    "dropdown.border": "#0047AB",
+    "list.hoverBackground": "#ADD8E6",
+    "list.activeSelectionBackground": "#0047AB",
+    "list.activeSelectionForeground": "#FFFFFF"
   },
   "tokenColors": [
     {
@@ -38,6 +44,13 @@
       "settings": {
         "foreground": "#888888",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#0047AB",
+        "fontStyle": "bold"
       }
     },
     {
@@ -92,4 +105,3 @@
     }
   ]
 }
-
