@@ -1,4 +1,4 @@
-Win95-francejpg-retro-theme
+Win95-Francejpg-Retro-Theme
 
 Voici un exemple de fichier `README.md` pour le projet **Win95-francejpg-retro-theme**, fidèle à l’image et à l’esprit rétro Windows 95 :
 
