@@ -4,7 +4,7 @@ Voici un exemple de fichier `README.md` pour le projet **Win95-francejpg-retro-t
 
 ---
 
-# Win95-francejpg-retro-theme
+# Win95-Francejpg-Retro-Theme
 
 Un thème Visual Studio Code inspiré de l’esthétique Windows 95 et de la carte de France pixelisée, clin d’œil au réseau cuivre en voie de disparition. Plongez dans une ambiance rétro et vintage, avec des couleurs fidèles à l’image « France.jpg » !
 
