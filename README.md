@@ -22,7 +22,7 @@ Ce pack contient actuellement 5 thèmes :
 *   **Type :** Clair (`vs`)
 *   **Inspiration :** Les couleurs iconiques bleu et blanc de la marque bretonne Armor-lux. Pour une ambiance marine et classique.
 *   **Aperçu / Inspiration :**
-    ![Armor-lux Marinière Inspiration](Armor lux.png)
+    ![Armor-lux Marinière Inspiration](Armor_lux.png)
 
 ---
 
@@ -31,7 +31,7 @@ Ce pack contient actuellement 5 thèmes :
 *   **Type :** Clair (`vs`)
 *   **Inspiration :** Le packaging parodique jaune et rouge "On veut de l'ail!" avec l'Adjudant-Chef Chaudard. Pour coder avec humour !
 *   **Aperçu / Inspiration :**
-    ![Chaudard - Ail Edition Inspiration](on veut du à l'ail.png)
+    ![Chaudard - Ail Edition Inspiration](on_veut_du_a_l_ail.png)
 
 ---
 
