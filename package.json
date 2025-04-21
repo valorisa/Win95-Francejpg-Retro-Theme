@@ -1,8 +1,8 @@
 {
   "name": "bbrod-french-theme-pack",
   "displayName": "Bbrod's French Theme Pack",
-  "description": "Une collection de thèmes VSCode uniques inspirés d'images françaises : Win95 Retro, Armor-lux, Chaudard et Pascale Resurrection.",
-  "version": "1.1.0",
+  "description": "Une collection de thèmes VSCode uniques inspirés d'images françaises : Win95 Retro, Armor-lux, Chaudard, Pascale Resurrection et Citroën Chevrons.",
+  "version": "1.2.0",
   "publisher": "bbrod",
   "engines": {
     "vscode": "^1.50.0"
@@ -32,6 +32,11 @@
         "label": "Pascale Resurrection",
         "uiTheme": "vs-dark",
         "path": "./themes/pascale-resurrection-theme.json"
+      },
+      {
+        "label": "Citroën Chevrons",
+        "uiTheme": "vs-dark",
+        "path": "./themes/citroen-chevrons-theme.json"
       }
     ]
   }

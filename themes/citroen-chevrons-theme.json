@@ -1,0 +1,175 @@
+{
+  "name": "citroen-chevrons",
+  "displayName": "Citroën Chevrons",
+  "description": "Thème VSCode inspiré par les couleurs du logo Citroën.",
+  "version": "1.0.0",
+  "publisher": "ton-nom-ou-pseudo",
+  "type": "dark",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "colors": {
+    "editor.background": "#192841",
+    "editor.foreground": "#E0E0E0",
+    "editorLineNumber.foreground": "#5A6B84",
+    "editorCursor.foreground": "#FFC20E",
+    "activityBar.background": "#192841",
+    "activityBar.foreground": "#FFC20E",
+    "activityBar.inactiveForeground": "#5A6B84",
+    "activityBarBadge.background": "#FFC20E",
+    "activityBarBadge.foreground": "#192841",
+    "sideBar.background": "#1F3050",
+    "sideBar.foreground": "#C0C0C0",
+    "sideBarSectionHeader.background": "#192841",
+    "sideBarSectionHeader.foreground": "#FFC20E",
+    "statusBar.background": "#192841",
+    "statusBar.foreground": "#C0C0C0",
+    "statusBar.noFolderBackground": "#101C2F",
+    "statusBarItem.remoteBackground": "#FFC20E",
+    "statusBarItem.remoteForeground": "#192841",
+    "tab.activeBackground": "#1F3050",
+    "tab.activeForeground": "#FFC20E",
+    "tab.inactiveBackground": "#192841",
+    "tab.inactiveForeground": "#5A6B84",
+    "tab.border": "#101C2F",
+    "titleBar.activeBackground": "#192841",
+    "titleBar.activeForeground": "#FFC20E",
+    "titleBar.inactiveBackground": "#1F3050",
+    "titleBar.inactiveForeground": "#5A6B84",
+    "button.background": "#FFC20E",
+    "button.foreground": "#192841",
+    "input.background": "#1F3050",
+    "input.foreground": "#E0E0E0",
+    "input.border": "#5A6B84",
+    "dropdown.background": "#1F3050",
+    "dropdown.border": "#5A6B84",
+    "list.hoverBackground": "#2A3F66",
+    "list.activeSelectionBackground": "#FFC20E",
+    "list.activeSelectionForeground": "#192841",
+    "peekViewEditor.background": "#1F3050",
+    "peekViewResult.background": "#192841",
+    "peekViewTitle.background": "#192841"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#5A6B84",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.operator.new",
+        "keyword.operator.expression"
+      ],
+      "settings": {
+        "foreground": "#FFC20E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string",
+        "string.quoted.single",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#D19408"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "entity.name.method"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class",
+        "entity.other.inherited-class",
+        "storage.type.cs",
+        "storage.type.java"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#FFC20E"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.logical",
+        "keyword.operator.arithmetic",
+        "keyword.operator.comparison"
+      ],
+      "settings": {
+        "foreground": "#FFC20E"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF5252",
+        "background": "#4D1F1F"
+      }
+    }
+  ]
+}
