@@ -29,7 +29,7 @@ Ce pack contient actuellement 5 thèmes :
 ### 3. Chaudard - Ail Edition
 
 *   **Type :** Clair (`vs`)
-*   **Inspiration :** Le packaging parodique jaune et rouge "On veut de l'ail!" avec l'Adjudant-Chef Chaudard. Pour coder avec humour !
+*   **Inspiration :** Le packaging parodique jaune et rouge "On veut du à l'ail !" avec l'Adjudant-Chef Chaudard. Pour coder avec humour !
 *   **Aperçu / Inspiration :**
     ![Chaudard - Ail Edition Inspiration](on_veut_du_a_l_ail.png)
 
